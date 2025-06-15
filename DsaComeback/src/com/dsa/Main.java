@@ -1,14 +1,15 @@
 package com.dsa;
 
+import com.dsa.array.binarysearch.RotatedSortedArray;
 import com.dsa.hash.TwoSums;
 
 public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("hello Raj");
-		TwoSums twoSums = new TwoSums();
-		int[] res = twoSums.twoSum(new int[] {2,7,11,15}, 9);
-		System.out.println(res.toString());
+		RotatedSortedArray rotatedSortedArray = new RotatedSortedArray();
+		int res = rotatedSortedArray.search(new int[] {4,5,6,7,0,1,2}, 3);
+		System.out.println(res);
 	}
 
 }
